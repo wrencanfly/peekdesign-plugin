@@ -136,6 +136,20 @@ Enable it per chat from the tools menu. (Custom connectors need a publicly reach
 | `create_artifact` / `update_artifact` | 2 / 1 |
 | `generate_images` · `generate_design` | by model · 40 |
 
+## What the plugin sends, and where
+
+The plugin contains no code that runs on your machine: four skills and four commands (plain instructions for your agent) and one MCP server entry pointing at `https://peekdesign.space/api/mcp` (or `$PEEKDESIGN_URL`). Nothing reaches Peekdesign except the tool calls your agent makes, and each one carries only its own arguments:
+
+- **Searches and briefs** — the words your agent searches with or describes the design in.
+- **Code it chooses to send** — HTML/React for canvas frames and artifacts it writes, or a component's source passed to `critique_design`. Your agent never uploads your codebase on its own; it sends what a tool call needs.
+- **Sign-in** — OAuth with your Peekdesign account (or an API key you create), so results land in your account.
+
+What we keep: your canvases, frames, artifacts, generated images, search overviews and a log of tool calls and credits, on your account, until you delete them or ask us to. Our AI tools (style directions, critiques, Peek) send the relevant content to Anthropic to generate the result; image generation goes to the image model you pick. We don't sell personal data. Privacy policy: https://peekdesign.space/privacy · Terms: https://peekdesign.space/terms
+
+## License
+
+MIT for this plugin (the skills, commands and manifests). The Peekdesign service, its library and the artists' work are not covered by it.
+
 ## Ethics
 
 Every reference credits its artist. The skills instruct your agent to credit them too and to borrow technique — grids, pacing, easing, palette relationships — never content such as copy, logos, characters or footage.

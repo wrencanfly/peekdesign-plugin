@@ -1,6 +1,6 @@
 {
   "name": "peekdesign",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Your agent's art director. Turns a vibe into style directions with tokens, finds curated references from working artists, hands over the design guides our own agent uses, gives your agent a live canvas that renders and screenshots its work (WebGL included), critiques the result — or hands the brief to Peek, our design agent.",
   "author": {
     "name": "Peekdesign",
@@ -19,5 +19,7 @@
     "critique"
   ],
   "privacyPolicyUrl": "https://peekdesign.space/privacy",
-  "termsOfServiceUrl": "https://peekdesign.space/terms"
+  "termsOfServiceUrl": "https://peekdesign.space/terms",
+  "license": "MIT",
+  "icon": ".claude-plugin/icon.png"
 }
