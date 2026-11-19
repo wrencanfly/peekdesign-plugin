@@ -1,0 +1,20 @@
+{
+  "name": "peekdesign",
+  "owner": {
+    "name": "Peekdesign",
+    "url": "https://peekdesign.space"
+  },
+  "metadata": {
+    "description": "Peekdesign for Claude Code: your agent's art director."
+  },
+  "plugins": [
+    {
+      "name": "peekdesign",
+      "source": "./",
+      "description": "Style directions with tokens, curated references, design guides, a live canvas with screenshots, critiques and Peek, our design agent.",
+      "version": "0.2.0",
+      "category": "design",
+      "homepage": "https://peekdesign.space/plugin"
+    }
+  ]
+}

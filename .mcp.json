@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "peekdesign": {
+      "type": "http",
+      "url": "${PEEKDESIGN_URL:-https://peekdesign.space}/api/mcp"
+    }
+  }
+}
