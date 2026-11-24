@@ -12,7 +12,7 @@
       "name": "peekdesign",
       "source": "./",
       "description": "Style directions with tokens, curated references, design guides, a live canvas with screenshots, critiques and Peek, our design agent.",
-      "version": "0.2.1",
+      "version": "0.3.0",
       "category": "design",
       "homepage": "https://peekdesign.space/plugin"
     }

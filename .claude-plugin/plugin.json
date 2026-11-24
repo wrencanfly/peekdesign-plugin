@@ -1,7 +1,7 @@
 {
   "name": "peekdesign",
-  "version": "0.2.1",
-  "description": "Your agent's art director. Turns a vibe into style directions with tokens, finds curated references from working artists, hands over the design guides our own agent uses, gives your agent a live canvas that renders and screenshots its work (WebGL included), critiques the result — or hands the brief to Peek, our design agent.",
+  "version": "0.3.0",
+  "description": "Your agent's art director. Turns a vibe into style directions with tokens, finds curated references from working artists, hands over the design guides our own agent uses, gives your agent a live canvas that renders and screenshots its work (WebGL included), critiques the result, installs ready React components and web interactions from our libraries — or hands the brief to Peek, our design agent.",
   "author": {
     "name": "Peekdesign",
     "url": "https://peekdesign.space"

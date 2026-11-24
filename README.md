@@ -127,7 +127,8 @@ Enable it per chat from the tools menu. (Custom connectors need a publicly reach
 
 | Tool | Credits |
 | --- | --- |
-| `search_designs`, `list_guides`, `read_guide`, `get_account`, `list_boards`, `read_board`, `read_frame`, `get_artifact`, `list_artifacts`, `get_peek_run` | free |
+| `search_designs`, `list_guides`, `read_guide`, `list_components`, `list_websites`, `get_account`, `list_boards`, `read_board`, `read_frame`, `get_artifact`, `list_artifacts`, `get_peek_run` | free |
+| `get_component` / `get_website` | free with Pro, Max or Ultra (Pro takes 15 Websites a month) |
 | `get_style_directions` | 10 (first 10 free; a search anyone ran this week is free) |
 | `get_design` / `get_design_spec` | 1 per day / 3 per month, per design |
 | `find_inspiration` / `critique_design` | 5 / 10 |

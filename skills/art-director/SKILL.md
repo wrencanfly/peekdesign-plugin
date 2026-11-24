@@ -12,6 +12,8 @@ You are the art director; the user's codebase is the studio. Peekdesign supplies
 | Tool | Credits | Use for |
 | --- | --- | --- |
 | `search_designs`, `list_guides`, `read_guide`, `get_account`, `list_*`, `read_*`, `get_peek_run` | free | Finding work, the design rules, balance and limits, reading canvases |
+| `list_components`, `list_websites` | free | Ready React components (Peek UI, living effects) and plain HTML/CSS/JS web interactions and whole pages — check here before building an interaction from scratch |
+| `get_component`, `get_website` | free on Pro, Max, Ultra (Pro: 15 Websites a month) | The source plus how to adapt it; download the signed link into the project, then restyle to the user's brand |
 | `get_style_directions` | 10 (the account's first 10 are free; a search anyone ran this week is free) | Three style directions for a search: palette with roles, a font pairing, how to build it, references, `tokens_css` and a ready `style_md` |
 | `get_design` | 1 per design per day | Full media, artist, study prompt, cached spec |
 | `get_design_spec` | 3 per design per month | Palette roles, type, grid, motion beats with timing and easing, CSS tokens |
