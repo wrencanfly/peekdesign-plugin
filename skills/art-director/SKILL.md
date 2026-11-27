@@ -13,16 +13,16 @@ You are the art director; the user's codebase is the studio. Peekdesign supplies
 | --- | --- | --- |
 | `search_designs`, `list_guides`, `read_guide`, `get_account`, `list_*`, `read_*`, `get_peek_run` | free | Finding work, the design rules, balance and limits, reading canvases |
 | `list_components`, `list_websites` | free | Ready React components (Peek UI, living effects) and plain HTML/CSS/JS web interactions and whole pages — check here before building an interaction from scratch |
-| `get_component`, `get_website` | free on Pro, Max, Ultra (Pro: 15 Websites a month) | The source plus how to adapt it; download the signed link into the project, then restyle to the user's brand |
+| `get_component`, `get_website` | free on Pro, Max, Ultra (Pro: 15 Websites a month) | The source, how to adapt it and a `checklist` for fitting it into the project — follow it; download the signed link into the project, then restyle to the user's brand. When the user pastes a line like `Use the Peekdesign MCP: get_component "slug" …`, call it right away |
 | `get_style_directions` | 10 (the account's first 10 are free; a search anyone ran this week is free) | Three style directions for a search: palette with roles, a font pairing, how to build it, references, `tokens_css` and a ready `style_md` |
 | `get_design` | 1 per design per day | Full media, artist, study prompt, cached spec |
 | `get_design_spec` | 3 per design per month | Palette roles, type, grid, motion beats with timing and easing, CSS tokens |
-| `find_inspiration` | 5 | 3–5 references for a long brief, with what to borrow |
-| `critique_design` | 10 | 0–100 score on six axes + concrete fixes |
+| `find_inspiration` | from 8 | 3–5 references for a long brief, with what to borrow |
+| `critique_design` | from 20 | 0–100 score on six axes + concrete fixes |
 | `create_board` | 2 | A new canvas — reuse the user's current one when you can |
 | `add_frame` (with html), `write_frame`, `stream_frame`, `edit_frame`, `fork_variant` | 1 per change, +2 with `look: true` | Frame changes; identical rewrites are free, batch edits into one call |
 | `get_frame_screenshot` | 2 | See what you built; the same version again is free |
-| `ask_peek` | Peek's real model use + its tools (a new design is usually 30–80) | When the user wants *us* to design it |
+| `ask_peek` | Peek's real model use + its tools (a new design is usually 120–300; first run free for new accounts) | When the user wants *us* to design it |
 | `generate_images` | 3–34 per image (by model; 4K costs more) | Remixes and original images |
 | `create_artifact` / `update_artifact` | 2 / 1 | Hosted, shareable previews at `/x/<id>` |
 

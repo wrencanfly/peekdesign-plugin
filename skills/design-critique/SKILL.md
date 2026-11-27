@@ -5,7 +5,7 @@ description: Run and act on a Peekdesign critique — the six-axis 0–100 rubri
 
 # Design critique
 
-`critique_design` (10 credits) scores a design against curated references. Give it the best evidence: an `artifact_id` (preferred — it renders the real thing), the component `html`/JSX/CSS, or a public `image_url`. Always pass `module` (e.g. "pricing section") and `goal` ("convert self-serve teams; feel premium"), plus the `reference_slugs` you designed from — critique without references drifts toward generic taste.
+`critique_design` (from 20 credits, metered by model use) scores a design against curated references. Give it the best evidence: an `artifact_id` (preferred — it renders the real thing), the component `html`/JSX/CSS, or a public `image_url`. Always pass `module` (e.g. "pricing section") and `goal` ("convert self-serve teams; feel premium"), plus the `reference_slugs` you designed from — critique without references drifts toward generic taste.
 
 ## The rubric
 

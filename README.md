@@ -7,6 +7,7 @@ Peekdesign connects your coding agent to a curated library of motion, branding a
 - **follow our design guides** — the rules Peek designs by: websites and landing pages, product UI, motion, real glass and 3D in WebGL,
 - **design on a live canvas** you can watch, with real-browser screenshots so it checks its own work (WebGL included; three.js, React Three Fiber, drei and GSAP import by name),
 - **critique** a design against references (0–100 across six axes, with concrete fixes),
+- **install ready parts** — React components and living effects, and plain HTML/CSS/JS web interactions and whole landing pages, fitted to your code and brand (every page on the site has a one-line *Use in your agent* button),
 - **hand a brief to Peek**, our design agent, and bring the result back into your codebase.
 
 Your agent does the heavy lifting on your own plan — thinking and writing code are free. Credits (included monthly with every paid plan, or as top-ups) pay only for what runs on our side: opening a design 1 · spec 3 · inspiration 5 · style directions 10 (the first 10 are free) · critique 10 · a frame change 1 · a screenshot 2 · Peek by its real model use. Searching, reading and guides are free. New accounts get 100 credits.
@@ -15,7 +16,7 @@ The MCP endpoint is `https://peekdesign.space/api/mcp` (locally: `http://localho
 
 ## Claude Code — plugin (recommended)
 
-The plugin bundles the MCP server, four skills (`art-director`, `design-artifacts`, `design-critique`, `motion-direction`) and four commands:
+The plugin bundles the MCP server, four skills (`art-director`, `design-artifacts`, `design-critique`, `motion-direction`) and five commands:
 
 | Command | What it does |
 | --- | --- |
@@ -23,6 +24,7 @@ The plugin bundles the MCP server, four skills (`art-director`, `design-artifact
 | `/peekdesign:inspire <brief>` | Art direction for what you're building, from real references |
 | `/peekdesign:peek <brief>` | Hands the brief to Peek, watches it on a canvas, brings the code back |
 | `/peekdesign:critique [target]` | Scores a design and turns the critique into fixes |
+| `/peekdesign:add <what>` | Finds a ready component or web interaction, installs it and fits it to your project |
 
 Install it from inside Claude Code:
 
@@ -61,7 +63,7 @@ export PEEKDESIGN_API_KEY=df_live_…
 
 ## Claude Code — MCP only
 
-No plugin, just the tools (MCP prompts `art-direct` and `critique` carry the workflow):
+No plugin, just the tools (MCP prompts `art-direct`, `critique` and `add` carry the workflow):
 
 ```bash
 claude mcp add --transport http peekdesign https://<host>/api/mcp
@@ -131,11 +133,11 @@ Enable it per chat from the tools menu. (Custom connectors need a publicly reach
 | `get_component` / `get_website` | free with Pro, Max or Ultra (Pro takes 15 Websites a month) |
 | `get_style_directions` | 10 (first 10 free; a search anyone ran this week is free) |
 | `get_design` / `get_design_spec` | 1 per day / 3 per month, per design |
-| `find_inspiration` / `critique_design` | 5 / 10 |
+| `find_inspiration` / `critique_design` | from 8 / from 20 (metered by model use) |
 | `create_board` · frame changes · `get_frame_screenshot` | 2 · 1 each (+2 with `look: true`) · 2 |
 | `ask_peek` | Peek's real model use plus its tools |
 | `create_artifact` / `update_artifact` | 2 / 1 |
-| `generate_images` · `generate_design` | by model · 40 |
+| `generate_images` · `generate_design` | by model · from 60 |
 
 ## What the plugin sends, and where
 
